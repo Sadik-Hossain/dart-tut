@@ -17,5 +17,19 @@ main() {
   // * when u want to interpolate in a string, just use the dollar sign in front of the variable name with a string.
   var age = 23;
   var str = "my age is : $age";
-  print(str)
+  print(str);
+
+  //* multi line string
+  var s5 = '''
+we can create 
+mutiline string using
+3 single quotes
+''';
+  var s6 = """
+we can create 
+mutiline string using
+3 double quotes
+""";
+  print(s5);
+  print(s6);
 }
