@@ -23,4 +23,8 @@ main() {
   String name1 = "Sadik";
   var name2 = "hossain";
   print("name1: $name1 | name2: $name2 \n");
+
+  bool isItTrue1 = true;
+  var isItTrue2 = false;
+  print("isItTrue1: $isItTrue1 | isItTrue2: $isItTrue2 \n");
 }
