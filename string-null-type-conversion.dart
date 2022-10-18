@@ -13,4 +13,9 @@ main() {
   // * to define raw string you have to put put r in front of the '...'
   var s = r'In a raw string, not even \n gets special treatment.';
   print(s);
+
+  // * when u want to interpolate in a string, just use the dollar sign in front of the variable name with a string.
+  var age = 23;
+  var str = "my age is : $age";
+  print(str)
 }
